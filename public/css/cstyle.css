@@ -1,0 +1,15 @@
+.header-one .logo-area {
+    padding: 15px 0;
+}
+
+.navbar-toggler {
+    background: #f80;
+}
+
+.sidebar-right .widget {
+    margin-left: 0px !important;
+}
+
+.form-control{
+    border: 3px solid #000 !important;
+}

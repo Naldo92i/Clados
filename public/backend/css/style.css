@@ -1,0 +1,12 @@
+.btn-primary {
+    background: #f80 !important;
+    border-color: #f80 !important;
+}
+
+.primary-color{
+    color: #f80 !important;
+}
+
+.form-control{
+    border: 3px solid #000 !important;
+}
