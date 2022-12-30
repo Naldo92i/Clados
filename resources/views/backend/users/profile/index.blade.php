@@ -1,5 +1,5 @@
 @extends('backend.layouts.app')
-@section('title', 'Administration - Mon compte')
+@section('title', 'CLADOS - Mon profile')
 @section('content')
     <div class="subheader py-2 py-lg-6 subheader-transparent" id="kt_subheader">
         <div class="container d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap">

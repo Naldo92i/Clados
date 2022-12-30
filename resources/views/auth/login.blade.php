@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>ESTA - PANNEAU D'ADMINISTRATION</title>
+    <title>CLADOS - CLASSEUR AUTOMATISE DE DOSSIERS</title>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <link rel="stylesheet" href="{{asset('css/font.css')}}" />
     <link href="{{asset('backend/plugins/global/plugins.bundle.css?v=7.2.9')}}" rel="stylesheet" type="text/css" />
@@ -32,15 +32,15 @@
                 <div class="row h-100 align-items-center justify-content-center">
                     <div class="col-md-4">
                         <div class="card card-custom col-md-12 p-0">
-                            <div style="background-color: black;" class="card-header justify-content-center">
-                                <h1 class="text-primary font-weight-bolder mt-5 mb-2 h2 text-uppercase text-center primary-color">
-                                    <u>PANNEAU D'ADMINISTRATEUR</u>
+                            <div style="background-color: rgb(0, 0, 0);" class="card-header justify-content-center">
+                                <h1 class="text-primary font-weight-bolder mt-5 mb-2 h2 text-uppercase text-center">
+                                    <u>CONNEXION</u>
                                 </h1>
                             </div>
                             <form method="POST" action="{{ route('login') }}">
                                 @csrf
                                 <div class="card-body">
-                                    <h1 class="text-primary text-center primary-color">
+                                    <h1 class="text-primary text-center">
                                         <span class="flaticon-user fa-3x "></span>
                                     </h1>
                                     @if (Session::has('message'))
@@ -72,19 +72,11 @@
                                             <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" placeholder="Mot de passe" name="password" required autofocus>
                                         </div>
                                     </div>
-                                    <div class="form-group">
-                                        <a href="{{route('password.request')}}" class="btn btn-link-danger font-weight-bold">Mot de passe oublié ?</a>
-                                    </div>
 
                                     <div class="form-group mb-0">
-                                        <button type="submit" class="btn btn-primary btn-block font-weight-bolder"><i class="flaticon-logout"></i> Connexion</button>
+                                        <button type="submit" class="btn btn-dark btn-block font-weight-bolder text-primary"><i class="flaticon-logout"></i> Connexion</button>
                                     </div>
 
-                                    <div class="separator separator-dark separator-dashed separator-border-2 mt-4 mb-4"></div>
-
-                                    <div class="form-group">
-                                        <a href="{{route('welcome')}}" class="btn btn-link-primary primary-color font-weight-bolder"><i class="primary-color flaticon2-back-1"></i> Retour sur le site</a>
-                                    </div>
                                 </div>
                             </form>
                         </div>

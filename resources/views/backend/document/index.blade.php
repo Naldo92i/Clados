@@ -1,5 +1,5 @@
 @extends('backend.layouts.app')
-@section('title', "Gestion des classeurs")
+@section('title', "CLADOS - Gestion des documents")
 @section('content')
 
     <div class="d-flex flex-column-fluid">

@@ -1,5 +1,5 @@
 @extends('backend.layouts.app')
-@section('title', "Panneau d'administration - Tableau de bord")
+@section('title', "CLADOS - Tableau de bord")
 @section('content')
     <div class="subheader py-2 py-lg-6 subheader-solid" id="kt_subheader">
         <div class="container-fluid d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap">
